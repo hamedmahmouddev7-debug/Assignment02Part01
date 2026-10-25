@@ -36,6 +36,16 @@ namespace LINQ
 			//	.ThenBy(w => w, new StringCaseInsensitiveComparer());
 			//foreach (var w in a1q12)
 			//	Console.WriteLine(w);
+
+
+
+			// [Q13] Digits whose 2nd letter is 'i', in reversed order
+			//Console.WriteLine("--- A1-Q13 ---");
+			//string[] digits = { "zero", "one", "two", "three", "four",
+			//					"five", "six", "seven", "eight", "nine" };
+			//var a1q13 = digits.Where(d => d.Length > 1 && d[1] == 'i').Reverse();
+			//foreach (var d in a1q13)
+			//	Console.WriteLine(d);   // nine, six, five
 		}
 	}
 }
