@@ -28,6 +28,14 @@ namespace LINQ
 			//foreach (var p in a1q9)
 			//	Console.WriteLine($"{p.ProductName} - {p.UnitsInStock}");
 
+			// [Q12] Sort by word length, then case-insensitive alphabetical
+			//Console.WriteLine("--- A1-Q12 ---");
+			//string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+			//var a1q12 = Arr
+			//	.OrderBy(w => w.Length)
+			//	.ThenBy(w => w, new StringCaseInsensitiveComparer());
+			//foreach (var w in a1q12)
+			//	Console.WriteLine(w);
 		}
 	}
 }
