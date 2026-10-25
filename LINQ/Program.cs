@@ -19,7 +19,15 @@ namespace LINQ
 			//	var a1q8 = ProductList.OrderBy(p => p.Category).ThenByDescending(p => p.UnitPrice);
 			//	foreach (var p in a1q8)
 			//		Console.WriteLine($"{p.Category} | {p.ProductName} | {p.UnitPrice}");
-			//}
+
+			// [Q9] Beverages sorted by UnitsInStock descending
+			//Console.WriteLine("--- A1-Q9 ---");
+			//var a1q9 = ProductList
+			//	.Where(p => p.Category == "Beverages")
+			//	.OrderByDescending(p => p.UnitsInStock);
+			//foreach (var p in a1q9)
+			//	Console.WriteLine($"{p.ProductName} - {p.UnitsInStock}");
+
 		}
 	}
 }
